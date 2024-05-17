@@ -9,6 +9,7 @@ import BestSellingDiscounted from "./pages/dropdownpages/BestSellingDiscounted";
 import DailyDiscounted from "./pages/dropdownpages/DailyDiscounted";
 import NewlyDiscounted from "./pages/dropdownpages/NewlyDiscounted";
 import CategoryPage from "./Components/Categorys/CategoryPage";
+import SingleProductPage from "./Components/Categorys/SingleProductPage";
 function App() {
   return (
     <>
@@ -24,6 +25,10 @@ function App() {
             <Route
               path="/category-page/:categoryName"
               element={<CategoryPage />}
+            />
+            <Route
+              path="/single-product-page/:id"
+              element={<SingleProductPage />}
             />
           </Routes>
         </Row>

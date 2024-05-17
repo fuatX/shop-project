@@ -8,12 +8,12 @@ export default function NewProducts() {
 
   return (
     <div className="col-sm-12">
-      <h1>newto Sword Shop!</h1>
-      <ul>
+      <h1>new products by to Sword Shop!</h1>
+      {/* <ul>
         {data.map((item, index) => (
           <Categorys item={item} key={index} />
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }

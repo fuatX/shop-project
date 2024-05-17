@@ -19,7 +19,11 @@ export default function HomePage() {
       <h1>Welcome to Sword Shop!</h1>
       <div>
         {data.map((item, index) => (
-          <Categorys item={item} key={index} />
+          <Categorys
+            imageUrl={`/src/Components/Pictures/${item}.jpg`}
+            item={item}
+            key={index}
+          />
         ))}
       </div>
     </div>

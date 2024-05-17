@@ -71,11 +71,11 @@ export default function Navbar() {
                 Bestselling Discounted items
               </NavLink>
               <NavLink className="dropdown-item" to="daily-discount">
-                Newly Discounted products
+                Daily Discounted products
               </NavLink>
               <div className="dropdown-divider" />
               <NavLink className="dropdown-item" to="newly-discount">
-                Daily Discounted products
+                Newly Discounted products
               </NavLink>
             </div>
           </li>
